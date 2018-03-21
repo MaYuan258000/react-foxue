@@ -5,9 +5,9 @@ export default class Hello extends Component{
 			var userInfo=localStorage.getItem('userInfo')
 
 			if(userInfo){
-				this.props.history.replace('/main')
-			}else{
 				this.props.history.replace('/login')
+			}else{
+				this.props.history.replace('/main')
 			}
 		
 	}

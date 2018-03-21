@@ -3,19 +3,19 @@ import React, {
 } from 'react';
 
 import {
-	BrowserRouter as
 	Router,
 	Route,
 	NavLink,
-	Switch
+	Switch,
+	Redirect
 } from 'react-router-dom'
 import Home from './Home/Home'
 import Fenlei from './Fenlei/Fenlei'
 import Jiaoliu from './Jiaoliu/Jiaoliu'
 import Username from './Username/Username'
-import Gerenziliao from '../Main/Username/Gerenziliao/Gerenziliao'
-//import createHistory from 'history/createBrowserHistory'
-//const history=createHistory()
+import Gerenziliao from './Username/Gerenziliao/Gerenziliao'
+import createHistory from 'history/createBrowserHistory'
+const history=createHistory()
 const styles = {
     nav: {
         height: '70px'
@@ -83,7 +83,7 @@ export default class Main extends Component {
     render() {
         return (
             <div className='wrapper'>
-                <Router>
+                <Router history={this.props.history}>
                     <div className='wrapper flex-box flex-col'>
                         <div className='flex1 autoBox'>
                             <Switch>
@@ -91,8 +91,8 @@ export default class Main extends Component {
                                 <Route path='/main/fenlei' component={Fenlei}/>
                                 <Route path='/main/jiaoliu' component={Jiaoliu}/>
                                 <Route path='/main/username' component={Username}/>
-                                <Route component={Home} />
-                                
+                                <Redirect from='/main' to="/main/home" />
+                                <Route path='/main/username/gerenziliao' component={Gerenziliao}/>
                             </Switch>
                               
                         </div>
