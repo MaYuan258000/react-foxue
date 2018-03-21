@@ -1,0 +1,45 @@
+.ul li{
+	padding-top: 20px;
+	padding-left: 1rem;
+
+}
+.box{
+	width: 20%;
+	height: 34rem;
+	background: white;
+}
+.huiyuan4{
+	width: 100%;
+	height: 10rem;
+	background: white;
+	display: flex;
+}
+.huiyuan5{
+	width: 50%;
+	height: 10rem;
+}
+.imge{
+	width: 85%;
+	margin-left: 0.7rem;
+	margin-top: 0.5rem;
+}
+.pp{
+	margin-left: 0.6rem;
+	font-size: 14px;
+	padding-top: 0.3rem;
+}
+.img4{
+	width: 40%;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+.zi6{
+	font-size: 0.5rem;
+	margin-top: 0rem;
+	margin-left: 0.5rem;
+	color: red;
+}
+.zi7{
+	margin-left: 0rem;
+	color: #858585;
+}

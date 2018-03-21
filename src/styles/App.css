@@ -1,0 +1,51 @@
+
+.flex-box{
+	display: flex;
+}
+.flex1{
+	flex: 1;
+}
+.wrapper,body,html,#root{
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+	padding: 0;
+	margin: 0;
+}
+.flex-col{
+	flex-direction: column;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ a{
+	text-decoration: none;
+	color: #858585;
+}
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.name{
+	height: 60px;
+    background: white;
+    border-top: 1px solid #DDDDDD;
+}
+.selected{
+	color: red;
+}
+.margin-left{
+	margin-left: 20px;
+}
+.autoBox{
+  overflow: auto;
+}
+.tu{
+	width: 30%;
+	margin-left: 2.1rem;
+	padding-top: 0.3rem;
+}
+

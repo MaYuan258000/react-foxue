@@ -1,0 +1,40 @@
+.imgg7{
+	width: 19%;
+	height: 4.5rem;
+	position: absolute;
+	top: 3.5rem;
+	left: 9.7rem;
+}
+.imgg8{
+	width: 3%;
+	position: absolute;
+	top: 1rem;
+	left: 0.5rem;
+}
+.bao{
+	position: absolute;
+	right: 0.7rem;
+	top: 1rem;
+	color: white;
+}
+.neii{
+	width: 100%;
+	background: white;
+	height: 9rem;
+}
+.neii-1{
+	width: 100%;
+	height: 3rem;
+	border-bottom: 1px solid #DDDDDD;
+    padding-left: 0.5rem;
+	line-height: 3rem;
+	color: #858585;
+}
+.neii-2{
+	width: 100%;
+	height: 3rem;
+    padding-left: 0.5rem;
+	line-height: 3rem;
+	color: #858585;
+}
+

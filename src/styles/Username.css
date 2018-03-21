@@ -1,0 +1,79 @@
+.top{
+	width: 100%;
+	height: 1.5rem;
+	background: white;
+}
+.imgg{
+	width: 100%;
+}
+.top-11{
+	width: 100%;
+	height: 10rem;
+	background: #fa474a;
+	margin-top: -0.5rem;
+	position: relative;
+}
+.imgg2{
+	width: 19%;
+	height: 4.5rem;
+	position: absolute;
+	top: 3rem;
+	left: 1rem;
+}
+.hh{
+	position: absolute;
+	left: 6rem;
+	top: 3.5rem;
+	color: white;
+}
+.but{
+	width: 4.5rem;
+	height: 1.5rem;
+	position: absolute;
+	left: 6rem;
+	top: 5.5rem;
+	background: white;
+	border: none;
+	border-radius: 3px;
+}
+.nei{
+	width: 100%;
+}
+.nei-1{
+	width: 100%;
+	height: 6rem;
+	background: white;
+	margin-top: 0.7rem;
+	
+}
+.nei-11{
+	width: 100%;
+	height: 3rem;
+	background: white;
+	margin-top: 0.7rem;
+	
+}
+.nei-2{
+	width: 100%;
+	height: 3rem;
+	 border-bottom: 1px solid #DDDDDD;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+.nei-3{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+.ht{
+	margin-left: 0.8rem;
+	color: #858585;
+}
+.htt{
+	margin-right: 0.5rem;
+	font-size: 24px;
+	color: #858585;
+}
