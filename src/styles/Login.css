@@ -1,0 +1,123 @@
+.top11{
+	width: 100%;
+	height: 4rem;
+	background: white;
+	letter-spacing: 2px;
+}
+.shouji{
+	width: 90%;
+	height: 2rem;
+	margin-top: 4rem;
+	background: white;
+	border: 1px solid #DDDDDD;
+	margin-left: 1rem;
+	box-shadow:0 0 5px #ddd;
+}
+.shouji input{
+	width: 79%;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+    border-left: none;
+	margin-left: 4.5rem;
+	height: 2rem;
+	
+}
+.mima{
+	width: 90%;
+	height: 2rem;
+	margin-top: 0.8rem;
+	background: white;
+	border: 1px solid #DDDDDD;
+	margin-left: 1rem;
+	box-shadow:0 0 5px #ddd;
+}
+.mima input{
+	width: 92%;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+    border-left: none;
+	margin-left: 1.8rem;
+	height: 2rem;
+}
+.da{
+	width: 100%;
+	height: 6.5rem;
+	background: white;
+	position: relative;
+}
+.biao{
+	font-size: 16px;
+	padding-top: 0.5rem;
+}
+.tu{
+	width: 20%;
+	height: 2rem;
+	position: absolute;
+	left: -1.2rem;
+}
+.tu img{
+	width: 18%;
+	margin-left: 0.5rem;
+}
+.mima img{
+	width: 20%;
+	margin-left: 0.5rem;
+	margin-top: 0rem;
+}
+.bianhao{
+	position: absolute;
+	left: 1.8rem;
+	top: 0.5rem;
+	color: #858585;
+}
+.xian{
+	width: 5%;
+	height: 20px;
+	border-right: 1px solid #858585;
+	position: absolute;
+    left: 4rem;
+	top: 0.5rem;
+}
+::placeholder{
+	left: -1.5rem;
+	position: relative;
+}
+.mima ::placeholder{
+	
+	top: 0.2rem;
+	position: relative;
+}
+.login{
+	width: 90%;
+	margin-left: 1rem;
+	height: 2.4rem;
+	border: none;
+	background: #fa474a;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 2px;
+	box-shadow:0 0 15px #fa474a;
+}
+.an{
+	width: 100%;
+	height: 6rem;
+	background: white;
+	
+}
+.zhu{
+	width: 100%;
+	height: 2rem;
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.zhu p{
+	padding-left: 0.9rem;
+	color: #858585;
+}
+.zhu span{
+	padding-right: 1rem;
+	color: #858585;
+}

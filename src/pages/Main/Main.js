@@ -13,15 +13,15 @@ import Home from './Home/Home'
 import Fenlei from './Fenlei/Fenlei'
 import Jiaoliu from './Jiaoliu/Jiaoliu'
 import Username from './Username/Username'
-import Gerenziliao from './Username/Gerenziliao/Gerenziliao'
-
-
+import Gerenziliao from '../Main/Username/Gerenziliao/Gerenziliao'
+//import createHistory from 'history/createBrowserHistory'
+//const history=createHistory()
 const styles = {
     nav: {
         height: '70px'
     },
     activeStyle:{
-        color: 'red'
+        color: '#fa474a'
     },
     icon:{
         width: '30px',
@@ -92,7 +92,9 @@ export default class Main extends Component {
                                 <Route path='/main/jiaoliu' component={Jiaoliu}/>
                                 <Route path='/main/username' component={Username}/>
                                 <Route component={Home} />
+                                
                             </Switch>
+                              
                         </div>
 
                         <div style={styles.nav} className='flex-box name'>

@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import LoginTop from '../../components/LoginTop'
 export default class Login extends Component{
 	//构造函数constructor，在react中的使用，唯一的作用 :this.state
 	//super
@@ -33,19 +34,31 @@ export default class Login extends Component{
 	render(){
 		return(
 		 <div className='wrapper'>
-			<h1>{this.state.userName}</h1>
-			<div>
-			  用户名:
-			  <input type="text" onChange={(e)=>this.changeEvent(e)}/>
+			<LoginTop/>
+			<div className="da">
+			<div className="shouji">
+			  <div className="tu">
+			  <img src={require('../../images/icon/dwdw_03.jpg')}/>
+			  <span className="bianhao">+86</span>
+			  <div className="xian"></div>
+			  </div>
+			  <input type="text" onChange={(e)=>this.changeEvent(e)} placeholder="手机号"/>
 			
 			</div>
-			<div>
-			  密码:
-			  <input type="password"  onChange={(e)=>this.pawdEvent(e)}/>
+			<div className="mima">
+			 <div className="tu">
+			  <img src={require('../../images/icon/dwdw_07.jpg')}/>
+			  </div>
+			  <input type="password"  onChange={(e)=>this.pawdEvent(e)} placeholder="密码"/>
 			
 			</div>
-	         <div>
-			  <button onClick={()=>this.loginEvent()}>登录</button>
+			</div>
+	         <div className="an">
+			  <button onClick={()=>this.loginEvent()} className="login">登录</button>
+			  <div className="zhu">
+			   <p>注册</p>
+			   <span>忘记密码?</span>
+			  </div>
 			
 			</div>
 			</div>
