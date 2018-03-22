@@ -15,7 +15,15 @@
 .flex-col{
 	flex-direction: column;
 }
-
+.oo1{
+	width: 100%;
+	background: white;
+	padding-left: 10px;
+	
+}
+.oo2{
+	margin-top: 0.5rem;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -47,5 +55,6 @@
 	width: 30%;
 	margin-left: 2.1rem;
 	padding-top: 0.3rem;
+	
 }
 

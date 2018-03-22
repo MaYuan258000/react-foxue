@@ -6,14 +6,17 @@ class Gerenziliao extends Component{
 		componentDidMount(){
 	
 	}
+		back(){
+			this.props.history.go(-1)
+		}
 	render(){
 		return(
 			<div className="wrapper flex-box flex-col">
-			<Mytop/>
+			<Mytop title="个人资料"/>
 			<div className="top-11">
 			<div className="top-2">
-			  <img src={require('../../../../images/ddddd_03.jpg')} className="imgg8"/>
-			  <span className='bao'>保存</span>
+			  <img src={require('../../../../images/ddddd_03.jpg')} className="imgg8" onClick={()=>this.back()}/>
+			  <span className='bao1'>保存</span>
 			  <img src={require('../../../../images/wewe_03.jpg')} className="imgg7"/>
 			</div>
 			</div>

@@ -3,13 +3,14 @@ import '../../../styles/Username.css';
 import '../../../styles/Homee.css';
 import '../../../styles/App.css';
 import Mytop from '../../../components/Mytop'
+import NavBar from '../../../components/NavBar'
 class Username extends Component{
 		componentDidMount(){
 		
 	}
-	go(){
-			this.props.history.push('/gerenziliao')
-		}
+    goPage(path){
+    	this.props.history.push(path)
+    }
 	render(){
 		return(
 			
@@ -23,51 +24,13 @@ class Username extends Component{
 			  <button className="but">注册会员</button>
 			</div>
 			</div>
-			  
-			   <div className="nei">
-			   <div className="nei-1">
-			   <div className="nei-2">
-			   <h4 className="ht" onClick={()=>this.go()}>个人资料</h4>
-			   <span className="htt">></span>
-			   </div>
-			   <div className="nei-3">
-			   <h4 className="ht">我的收藏</h4>
-			   <span className="htt">></span>
-			   </div>
-			   </div>
-			   </div>
-			     <div className="nei">
-			   <div className="nei-1">
-			   <div className="nei-2">
-			   <h4 className="ht">我的余额</h4>
-			   <span className="htt">></span>
-			   </div>
-			   <div className="nei-3">
-			   <h4 className="ht">我的订单</h4>
-			   <span className="htt">></span>
-			   </div>
-			   </div>
-			   </div>
-			    <div className="nei">
-			   <div className="nei-11">
-			   <div className="nei-2">
-			   <h4 className="ht">设置</h4>
-			   <span className="htt">></span>
-			   </div>
-			   </div>
-			   </div>
-			    <div className="nei">
-			   <div className="nei-1">
-			   <div className="nei-2">
-			   <h4 className="ht">意见反馈</h4>
-			   <span className="htt">></span>
-			   </div>
-			   <div className="nei-3">
-			   <h4 className="ht">评价</h4>
-			   <span className="htt">></span>
-			   </div>
-			   </div>
-			   </div>
+               <div className="he"><NavBar title="个人资料" goPage={()=>this.goPage('/gerenziliao')}/>
+               <NavBar title="我的收藏" goPage={()=>this.goPage('/shoucang')}/></div>
+               <div className="he"><NavBar title="我的余额" goPage={()=>this.goPage('/balance')}/>
+               <NavBar title="我的订单"/></div>
+               <NavBar title="设置" goPage={()=>this.goPage('/set')}/>
+                <div className="he"><NavBar title="意见反馈"/>
+               <NavBar title="评价"/></div>
 			</div>
 		)
 	}

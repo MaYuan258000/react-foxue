@@ -10,7 +10,7 @@ class LoginTop extends Component{
 		<div className="top wrapper">
 			<img src={require('../images/sdsdsd_01.jpg')} className="imgg"/>
 			<div className="top11">
-			<span className="biao center">登录</span>
+			<span className="biao1 center">登录</span>
 			</div>
 			</div>
 		)

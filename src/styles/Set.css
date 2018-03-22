@@ -1,0 +1,102 @@
+.Set{
+	width: 100%;
+	height: 18.3rem;
+	background: white;
+	margin-top: 3rem;
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+.span1{
+position: relative;
+top: 0.8rem;
+font-size: 13px;
+left: 0.7rem;
+}
+.h4{
+	position: relative;
+top: 0.8rem;
+font-size: 13px;
+}
+.quan{
+	width: 35%;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+.chong{
+	width: 100%;
+	height: 18rem;
+	margin-top: 3rem;
+}
+.bao{
+	width: 30%;
+	margin-right:7.5rem ;
+	margin-top: 6rem;
+}
+.chong p{
+	padding-top: 15rem;
+	padding-left: 5.4rem;
+	letter-spacing: 1px;
+}
+.nn{
+	margin-top: 0.5rem;
+}
+.shang{
+	width: 100%;
+	height: 10rem;
+	margin-top: 3rem;
+}
+.shang h3{
+	text-align: center;
+	padding-top: 2rem;
+}
+.shang p{
+	text-align: center;
+	padding-top: 1rem;
+	font-size: 46px;
+	color: #fa474a;
+}
+.shang select{
+	border: none;
+	font-size: 32px;
+	background: none;
+}
+.zhifubao{
+	width: 100%;
+	height: 5rem;
+	background: white;
+	display: flex;
+}
+.zhifubao-left{
+  width: 20%;
+  height: 5rem;
+}
+.zhifubao-middle{
+	width: 70%;
+	height: 5rem;
+
+}
+.ppp{
+	margin-top: 1.2rem;
+	font-size: 14px;
+}
+.ppp1{
+	margin-top: 0.3rem;
+		font-size: 11px;
+}
+.zhifubao-right{
+	width: 10%;
+	height: 5rem;
+}
+.zhifu{
+	width: 60%;
+	margin: 1rem;
+}
+.zhifu1{
+	width: 60%;
+	margin-top: 1.7rem;
+	margin-left: 0.5rem;
+}
+.tui{
+	margin-top: 0.5rem;
+}
+

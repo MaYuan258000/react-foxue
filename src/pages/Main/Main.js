@@ -13,7 +13,6 @@ import Home from './Home/Home'
 import Fenlei from './Fenlei/Fenlei'
 import Jiaoliu from './Jiaoliu/Jiaoliu'
 import Username from './Username/Username'
-import Gerenziliao from './Username/Gerenziliao/Gerenziliao'
 import createHistory from 'history/createBrowserHistory'
 const history=createHistory()
 const styles = {
@@ -92,7 +91,7 @@ export default class Main extends Component {
                                 <Route path='/main/jiaoliu' component={Jiaoliu}/>
                                 <Route path='/main/username' component={Username}/>
                                 <Redirect from='/main' to="/main/home" />
-                                <Route path='/main/username/gerenziliao' component={Gerenziliao}/>
+                              
                             </Switch>
                               
                         </div>
