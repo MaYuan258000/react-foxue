@@ -9,7 +9,7 @@ class Verification extends Component{
 			<div className="wrapper ii">
 			<div><TopComponent title="验证码" history={this.props.history}/></div>
 			<div className="ma">
-			<p>已发送验证码到: 137 1780 0979</p>
+			<p>已发送验证码到: 137 1780 09799</p>
 			<input type="text" placeholder="请输入验证码"/>
 			<p className="po1"><span>60s</span>后重新获取验证码</p>
 			</div>
