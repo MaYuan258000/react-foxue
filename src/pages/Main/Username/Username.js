@@ -29,8 +29,8 @@ class Username extends Component{
                <div className="he"><NavBar title="我的余额" goPage={()=>this.goPage('/balance')}/>
                <NavBar title="我的订单"/></div>
                <NavBar title="设置" goPage={()=>this.goPage('/set')}/>
-                <div className="he"><NavBar title="意见反馈"/>
-               <NavBar title="评价"/></div>
+                <div className="he"><NavBar title="意见反馈" goPage={()=>this.goPage('/chongzhi')}/>
+               <NavBar title="评价" goPage={()=>this.goPage('/dynamic')}/></div>
 			</div>
 		)
 	}

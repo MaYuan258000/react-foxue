@@ -28,7 +28,7 @@ class Balancemingxi extends Component{
 		return(
 			<div className="wrapper flex-box flex-col">
 			<div><TopComponent title="设置" history={this.props.history}/></div>
-			<div className="list Set">
+			<div className="Set">
 			{this.state.arrr.map((item,index)=>{
 			return<div className="list-nei" key={index}>
 			 <div className="list-left">

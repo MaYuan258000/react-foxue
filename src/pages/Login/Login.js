@@ -31,6 +31,12 @@ export default class Login extends Component{
 		window.localStorage.setItem('userInfo',userInfo);
 		this.props.history.push('/main')
 	}
+	gg(){
+		this.props.history.push('/register')
+	}
+	gg1(){
+		this.props.history.push('/phone')
+	}
 	render(){
 		return(
 		 <div className='wrapper'>
@@ -56,8 +62,8 @@ export default class Login extends Component{
 	         <div className="an">
 			  <button onClick={()=>this.loginEvent()} className="login">登录</button>
 			  <div className="zhu">
-			   <p>注册</p>
-			   <span>忘记密码?</span>
+			   <p onClick={()=>this.gg()}>注册</p>
+			   <span onClick={()=>this.gg1()}>忘记密码?</span>
 			  </div>
 			
 			</div>

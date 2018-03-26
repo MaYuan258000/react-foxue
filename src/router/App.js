@@ -15,6 +15,11 @@ import Balancemingxi from '../pages/Main/Username/Balancemingxi/Balancemingxi'
 import Set from '../pages/Main/Username/Set/Set'
 import Recharge from '../pages/Main/Username/Recharge/Recharge'
 import Recharge1 from '../pages/Main/Username/Recharge1/Recharge1'
+import Chongzhi from '../pages/Main/Username/Chongzhi/Chongzhi'
+import Phone from '../pages/Register/Phone/Phone'
+import Verification from '../pages/Register/Verification/Verification'
+import Dynamic from '../pages/Main/Username/Dynamic/Dynamic'
+import Dongtaixiangqing from '../pages/Main/Username/Dongtaixiangqing/Dongtaixiangqing'
 export default class App extends Component{
 
 		render(){
@@ -33,6 +38,11 @@ export default class App extends Component{
 			<Route path='/set' component={Set}/>
 			<Route path='/recharge' component={Recharge}/>
 			<Route path='/recharge1' component={Recharge1}/>
+			<Route path='/chongzhi' component={Chongzhi}/>
+			<Route path='/phone' component={Phone}/>
+			<Route path='/verification' component={Verification}/>
+			<Route path='/dynamic' component={Dynamic}/>
+			<Route path='/dongtaixiangqing' component={Dongtaixiangqing}/>
 			</div>
 			</Router>
 

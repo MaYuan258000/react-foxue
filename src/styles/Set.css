@@ -99,4 +99,318 @@ font-size: 13px;
 .tui{
 	margin-top: 0.5rem;
 }
+.zhi{
+	width: 100%;
+	height: 6rem;
+	background: white;
+	margin-top: 3rem;
+}
+.zhi-top{
+	width: 100%;
+	height: 3rem;
+	border-bottom: 1px solid #DDDDDD;
+}
+.zhi-bottom{
+	width: 100%;
+	height: 3rem;
 
+}
+.po{
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+.span-1{
+	margin-left: 0.5rem;
+	color: #fa474a;
+	font-size: 22px;
+}
+.que{
+	margin-top: 0.5rem;
+}
+.zhuce{
+	width: 100%;
+	background: white;
+	height: 10rem;
+	margin-top: 3rem;
+}
+.zhuce-top{
+	width: 100%;
+	height: 5rem;
+	background: red;
+}
+.zhuce-bottom{
+	width: 100%;
+	height: 5rem;
+	background: blue;
+}
+.shouji1 input{
+	width: 90%;
+	margin-left: 1rem;
+	height: 2rem;
+	margin-top: 1rem;
+	box-shadow:0 0 5px #ddd;
+	border: 1px solid #585858;
+	background: none;
+}
+.mima1 input{
+	width: 90%;
+	margin-left: 1rem;
+	height: 2rem;
+	margin-top: 1rem;
+	background: none;
+	box-shadow:0 0 5px #ddd;
+	border: 1px solid #585858;
+}
+.da1{
+	margin-top: 3rem;
+	width: 100%;
+	height: 8rem;
+
+}
+.shouji1 ::placeholder{
+	position: relative;
+	left: -0.5rem;
+}
+.shouji1 p{
+	margin-left: 1rem;
+	font-size: 11px;
+	color: #858585;
+    padding-top: 0.5rem;
+}
+.mima1 ::placeholder{
+	position: relative;
+	left: -0.5rem;
+}
+.niuu{
+	width: 95%;
+	margin-left: 0.6rem;
+	height: 2.3rem;
+	border: none;
+	background: #fa474a;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin-top: 0.5rem;
+	box-shadow:0 0 5px #fa474a;
+}
+.mima11 input{
+	width: 94%;
+	margin-left: 0.6rem;
+	height: 2rem;
+	margin-top: 1rem;
+	background: none;
+	box-shadow:0 0 5px #ddd;
+	border: 1px solid #585858;
+}
+.ma input{
+	width: 94%;
+	margin-left: 0.6rem;
+	height: 2rem;
+	margin-top: 1rem;
+	background: none;
+	box-shadow:0 0 5px #ddd;
+	border: 1px solid #585858;
+}
+.mima11{
+	width: 100%;
+	height: 4rem;
+	margin-top: 3rem;
+}
+.mima11 ::placeholder{
+	padding-left: 2.5rem;
+}
+.ii{
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+.yan p{
+	font-size: 10px;
+	margin-left: 0.7rem;
+	margin-top: 0.5rem;
+	color: #858585;
+	letter-spacing: 1px;
+}
+.xianhe{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+}
+.xianhe-left{
+	width: 45%;
+	height: 3rem;
+}
+.xianhe-middle{
+	width: 10%;
+	height: 3rem;
+	
+}
+.xianhe-middle p{
+	margin-top: 0.8rem;
+	margin-left: 0.4rem;
+	color: #858585;
+}
+.xianhe-right{
+	width: 45%;
+	height: 3rem;
+}
+.xian-1{
+	width: 90%;
+	height: 1px;
+	background: #858585;
+	margin-top: 1.5rem;
+	margin-left: 0.8rem;
+}
+.xian-2{
+	width: 90%;
+	height: 1px;
+	background: #858585;
+	margin-top: 1.5rem;
+	margin-left: 0.2rem;
+}
+.bx{
+	width: 100%;
+	height: 4rem;
+	display: flex;
+}
+.bx-1{
+	width: 33.3%;
+	height: 4rem;
+}
+.bx-2{
+	width: 33.3%;
+	height: 4rem;
+}
+
+.bx-3{
+	width: 33.3%;
+	height: 4rem;
+}
+.qq{
+	width: 20%;
+	margin-left: 3.8rem;
+	margin-top: 0.7rem;
+}
+.qq1{
+	width: 30%;
+	margin-left: 2.8rem;
+	margin-top: 0.5rem;
+}
+.ma{
+	width: 100%;
+	height: 8rem;
+	margin-top: 3rem;
+}
+.ma p{
+	font-size: 11px;
+	margin-left: 0.8rem;
+	padding-top: 0.8rem;
+}
+.po1{
+	font-size: 11px;
+	text-align: center;
+	padding-top: 0.8rem;
+	color: #858585;
+}
+.po1 span{
+	color: #fa474a;
+	letter-spacing: 1px;
+}
+.ma ::placeholder{
+	padding-left: 2.5rem;
+}
+.dong{
+	width: 90%;
+	height: 9rem;
+	margin-top: 4rem;
+	background: #F1F1F1;
+	margin-left: 0.7rem;
+	font-size: 12px;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	letter-spacing: 1px;
+	color: #858585;
+}
+
+.dong textarea{
+	
+	border: none;
+	
+}
+.tupian{
+	width: 100%;
+	height: 3rem;
+	margin-top: 1rem;
+}
+.tupian img{
+	width: 30%;
+	float: right;
+	margin-right: 1.4rem;
+}
+.xiang{
+	width: 100%;
+	height: 7rem;
+	margin-top: 4rem;
+
+}
+.xiang-top{
+	width: 100%;
+	height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.xiang-bottom{
+	width: 100%;
+	height: 4rem;
+}
+.imgggg{
+	width: 10%;
+	margin-left: 1.2rem;
+	margin-top: 0rem;
+}
+.xiang-top h5{
+	margin-right: 6rem;
+}
+.xiang-top p{
+	margin-right: 0.8rem;
+	font-size: 10px;
+	color: #858585;
+}
+.pk{
+	font-size: 10px;
+	color: #858585;
+	margin-left: 4.2rem;
+	padding-top: 0.5rem;
+}
+.pk1{
+	font-size: 10px;
+	color: #858585;
+	margin-left: 4.2rem;
+}
+.boxxx{
+	width: 100%;
+	height: 20rem;
+}
+.boxxx-top{
+	width: 100%;
+	height: 10rem;
+}
+.boxxx-bottom{
+	width: 100%;
+	height: 10rem;
+}
+.urle{
+	width: 75%;
+	margin-left: 3.5rem;
+}
+.urlee{
+	width: 40%;
+	float: right;
+	margin-right: 2.5rem;
+	margin-top: 0.5rem;
+}
+.iconn{
+	width: 100%;
+	height: 2rem;
+}
