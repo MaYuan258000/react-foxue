@@ -13,6 +13,10 @@ import imgObj8 from '../../../images/sddw_44.jpg'
 import imgObj9 from '../../../images/sddw_53.jpg'
 import imgObj10 from '../../../images/sddw_55.jpg'
 import imgObj11 from '../../../images/sddw_57.jpg'
+import { Carousel } from 'antd';
+function onChange(a, b) {
+  console.log(a, b);
+}
 class Home extends Component{
 		componentDidMount(){
 	
@@ -44,6 +48,7 @@ class Home extends Component{
         ]
    	}
    }
+
 	render(){
 
 		return(
@@ -56,7 +61,10 @@ class Home extends Component{
 			 <p className="p">Q</p>
 			 </div>
 			 <div className="lun">
-			 <img src={require('../../../images/sddw_03.jpg')} className="img1"/>
+			   <Carousel afterChange={onChange} autoplay>
+			    <div><img src={require('../../../images/sddw_03.jpg')} className="ooooo"/></div>
+			   <div><img src={require('../../../images/sddw_03.jpg')} className="ooooo"/></div>
+			  </Carousel>
 			 </div>
 			 
 			 <div className="shipin">

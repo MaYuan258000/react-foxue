@@ -20,6 +20,7 @@ import Phone from '../pages/Register/Phone/Phone'
 import Verification from '../pages/Register/Verification/Verification'
 import Dynamic from '../pages/Main/Username/Dynamic/Dynamic'
 import Dongtaixiangqing from '../pages/Main/Username/Dongtaixiangqing/Dongtaixiangqing'
+import Kecheng from '../pages/Main/Username/Kecheng/Kecheng'
 export default class App extends Component{
 
 		render(){
@@ -43,6 +44,7 @@ export default class App extends Component{
 			<Route path='/verification' component={Verification}/>
 			<Route path='/dynamic' component={Dynamic}/>
 			<Route path='/dongtaixiangqing' component={Dongtaixiangqing}/>
+			<Route path='/Kecheng' component={Kecheng}/>
 			</div>
 			</Router>
 

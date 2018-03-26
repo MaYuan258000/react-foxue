@@ -20,7 +20,8 @@ const styles = {
         height: '70px'
     },
     activeStyle:{
-        color: '#fa474a'
+ 
+        color:'#fa474a'
     },
     icon:{
         width: '30px',
@@ -98,7 +99,7 @@ export default class Main extends Component {
 
                         <div style={styles.nav} className='flex-box name'>
 
-                            <MyLink to='/main/home' label='首页' />
+                            <MyLink to='/main/home' label='首页' style='color:#858585'/>
                             <MyLink to='/main/fenlei' label='分类'/>
                             <MyLink to='/main/jiaoliu' label='交流'/>
                             <MyLink to='/main/username' label='我的'/>
