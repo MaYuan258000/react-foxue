@@ -55,10 +55,10 @@ font-size: 13px;
 	font-size: 46px;
 	color: #fa474a;
 }
-.shang select{
-	border: none;
-	font-size: 32px;
-	background: none;
+:root .ant-dropdown-trigger .anticon-down, :root .ant-dropdown-link .anticon-down{
+font-size: 24px;
+margin-left: 0.5rem;
+ color: #858585;
 }
 .zhifubao{
 	width: 100%;

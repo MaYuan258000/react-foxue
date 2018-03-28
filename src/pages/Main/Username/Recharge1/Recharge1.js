@@ -1,12 +1,27 @@
-import React,{Component} from 'react'
+import React, {
+	Component
+} from 'react'
 import TopComponent from '../../../../components/TopComponent'
 import Button from '../../../../components/Button'
 import '../../../../styles/Set.css';
-class Recharge extends Component{
-	    goPage(path){
-    	this.props.history.push(path)
-    }
-	render(){
+import { Menu, Dropdown, Icon } from 'antd'
+const menu = (
+	<Menu>
+    <Menu.Item key="0">
+      <a href="http://www.alipay.com/">1st menu item</a>
+    </Menu.Item>
+    <Menu.Item key="1">
+      <a href="http://www.taobao.com/">2nd menu item</a>
+    </Menu.Item>
+    <Menu.Divider />
+    <Menu.Item key="3">3rd menu item</Menu.Item>
+  </Menu>
+);
+class Recharge extends Component {
+	goPage(path) {
+		this.props.history.push(path)
+	}
+	render() {
 		return(
 			<div>
 			  <div>
@@ -14,9 +29,13 @@ class Recharge extends Component{
 			  </div>
 			  <div className="shang">
 			   <h3>商城付款</h3>
-			   <p>￥100 <select>
-			            
-			    </select></p>
+			   <p>￥100 
+			    <Dropdown overlay={menu} trigger={['click']} className="Dropdown">
+				    <a className="ant-dropdown-link" href="#">
+				     <Icon type="down" />
+				    </a>
+				  </Dropdown>
+			   </p>
 			  </div>
 			  <div className="zhifubao">
 			  <div className="zhifubao-left">

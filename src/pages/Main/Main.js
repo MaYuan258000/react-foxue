@@ -14,6 +14,7 @@ import Fenlei from './Fenlei/Fenlei'
 import Jiaoliu from './Jiaoliu/Jiaoliu'
 import Username from './Username/Username'
 import createHistory from 'history/createBrowserHistory'
+import { Badge } from 'antd';
 const history=createHistory()
 const styles = {
     nav: {
@@ -101,6 +102,7 @@ export default class Main extends Component {
 
                             <MyLink to='/main/home' label='首页' style='color:#858585'/>
                             <MyLink to='/main/fenlei' label='分类'/>
+                            <Badge count={109} style={{ backgroundColor: 'red' }} className="xiaoxi"/>
                             <MyLink to='/main/jiaoliu' label='交流'/>
                             <MyLink to='/main/username' label='我的'/>
 

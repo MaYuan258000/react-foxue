@@ -14,9 +14,24 @@ import imgObj9 from '../../../images/sddw_53.jpg'
 import imgObj10 from '../../../images/sddw_55.jpg'
 import imgObj11 from '../../../images/sddw_57.jpg'
 import { Carousel } from 'antd';
+import { Rate } from 'antd';
+import { Card } from 'antd';
 function onChange(a, b) {
   console.log(a, b);
 }
+const tabList = [{
+  key: 'tab1',
+  tab: 'tab1',
+}, {
+  key: 'tab2',
+  tab: 'tab2',
+}];
+
+const contentList = {
+  tab1: <p>content1</p>,
+  tab2: <p>content2</p>,
+};
+
 class Home extends Component{
 		componentDidMount(){
 	
@@ -80,7 +95,7 @@ class Home extends Component{
 			  return <div className="zhanshi-1" key={index}>
 			 <img src={item.imgObj}  className="img3"/>
 			 <p className="p1">{item.title}</p>
-			 <img src={require("../../../images/wwww_03.jpg")}className="img4"/>
+         <Rate allowHalf defaultValue={2.5} />
 			 <p className="zi">￥{item.price} <span className="zi1">{item.xue}</span></p>
 			 </div>
 			 })}
@@ -117,7 +132,7 @@ class Home extends Component{
 			 	return <div className="huiyuan-2" key={index}>
 			   <img src={item.imgObj5} className="img6"/>
 			  <p className="p1">{item.title}</p>
-			 <img src={require("../../../images/wwww_03.jpg")}className="img4"/>
+			 <Rate allowHalf defaultValue={1.5} />
 			 <p className="zi">￥{item.price}<span className="zi5">{item.title1}</span></p>
 			  
 			  </div>
@@ -137,6 +152,9 @@ class Home extends Component{
 			      <p className="p5">{item.title1}</p>
 			     </div>
 			  })}
+			  </div>
+			  <div className="ddddd">
+			  
 			  </div>
 			</div>
 		)
