@@ -12,21 +12,22 @@
 }
 .input{
 	width: 90%;
-	height: 1.5rem;
+	height: 1.8rem;
 	margin-left: 1rem;
 	margin-top: 0.4rem;
 	border: none;
 	border-radius: 20px;
 	background: #f2f2f2;
+	margin-bottom: 0.8rem;
 }
 .p{
 	position: absolute;
 	left: 1.5rem;
-	top: 0.4rem;
+	top: 0.5rem;
 	color: #ddd;
 }
 ::placeholder{
-	padding-left: 1.8rem;
+	padding-left: 3rem;
 	padding-top: 0.2rem;
 }
 .lun{

@@ -15,7 +15,7 @@ class Dynamic extends Component{
 		    </div>
 			</div>
 			<div className='tupian'>
-			<img src={require('../../../../images/dongtai_03.jpg')}/>
+			<img src={require('../../../../images/dsdsdw_03.jpg')}/>
 			</div>
 
 			</div>

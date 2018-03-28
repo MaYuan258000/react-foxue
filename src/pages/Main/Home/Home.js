@@ -61,9 +61,11 @@ class Home extends Component{
 			 <p className="p">Q</p>
 			 </div>
 			 <div className="lun">
-			   <Carousel afterChange={onChange} autoplay>
+			   <Carousel afterChange={onChange} autoplay dots>
 			    <div><img src={require('../../../images/sddw_03.jpg')} className="ooooo"/></div>
-			   <div><img src={require('../../../images/sddw_03.jpg')} className="ooooo"/></div>
+			   <div><img src={require('../../../images/gamersky_06origin_11_20121224118566.jpg')} className="ooooo"/></div>
+			   <div><img src={require('../../../images/gamersky_12origin_23_201211141018A2.jpg')} className="ooooo"/></div>
+			   <div><img src={require('../../../images/gamersky_14origin_27_20153211028E9F.jpg')} className="ooooo"/></div>
 			  </Carousel>
 			 </div>
 			 

@@ -7,6 +7,7 @@ import price from '../../../../images/fffff_03.jpg';
 import price1 from '../../../../images/fffff_08.jpg';
 import price2 from '../../../../images/fffff_06.jpg';
 import price3 from '../../../../images/icon/you.png';
+import { Slider, Switch } from 'antd';
 class Balancemingxi extends Component{
 	constructor(props){
 		super(props);
@@ -35,8 +36,8 @@ class Balancemingxi extends Component{
 			 <h4 className="h4">{item.title}</h4>
 			 </div>
 			 <div className="list-right">
-			 <span className="span1">{item.price1}</span>
-			 <img src={item.price} className="quan"/>
+		
+			 <Switch size="small" onChange={this.handleDisabledChange} className="ooooood" />
 			 </div>
 			</div>
 			})}
