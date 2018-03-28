@@ -15,24 +15,13 @@ import imgObj10 from '../../../images/sddw_55.jpg'
 import imgObj11 from '../../../images/sddw_57.jpg'
 import { Carousel } from 'antd';
 import { Rate } from 'antd';
-import { Card } from 'antd';
+
 function onChange(a, b) {
   console.log(a, b);
 }
-const tabList = [{
-  key: 'tab1',
-  tab: 'tab1',
-}, {
-  key: 'tab2',
-  tab: 'tab2',
-}];
-
-const contentList = {
-  tab1: <p>content1</p>,
-  tab2: <p>content2</p>,
-};
 
 class Home extends Component{
+
 		componentDidMount(){
 	
 	}
@@ -153,9 +142,7 @@ class Home extends Component{
 			     </div>
 			  })}
 			  </div>
-			  <div className="ddddd">
-			  
-			  </div>
+
 			</div>
 		)
 	}

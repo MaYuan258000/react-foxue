@@ -2,9 +2,16 @@ import React, {
 	Component
 } from 'react'
 import '../../../styles/Set.css';
-
+import { Tabs, Select } from 'antd';
 var isShow = 0;
+	const TabPane = Tabs.TabPane;
 class Jiaoliu extends Component {
+	  state = {
+    tabPosition: 'top',
+  }
+  changeTabPosition = (tabPosition) => {
+    this.setState({ tabPosition });
+  }
 	componentDidMount() {
 
 	}
@@ -25,27 +32,20 @@ class Jiaoliu extends Component {
 
 		return(
 			<div className="wrapper ii autoBox">
-             <div className="daohang">
-             <div className="daohang-top">
+			 <div className="daohang-top">
              <img src={require('../../../images/sddw_01.jpg')} className="mm"/>
              </div>
-             <div className="daohang-bottom">
-             
-             <div className="left-1">
-             <p onClick={()=>this.tiao(true)}>公司动态</p>
-             </div>
-             
-             <div className="left-2">
-             <p onClick={()=>this.tiao(false)}>最新动态</p>
-             <img src={require('../../../images/icon/xiang_03.jpg')} className="imde"/>
-              </div>
-             </div>
-             </div>
-             
-			 <div className="ju">
-			 {this.state.isShow?<div className="ju-1">
+           <div className="daohang-bottom">
+          <Tabs tabPosition={this.state.tabPosition}>
+          <TabPane tab="公司动态" key="1">
+           <div className="ju">
+           <div className="ju-1">
 			 <img src={require('../../../images/dongtai_03.jpg')}/>
-			 </div>:<div className="xiang2">
+			 </div>
+           </div>
+          </TabPane>
+          <TabPane tab="最新动态" key="2">
+          <div className="xiang2">
 		      <div className="xiang-2">
 		     <img src={require('../../../images/dong_03.jpg')} className="imgggg"/>
 			 <span>react_故事才刚刚开始</span>
@@ -80,12 +80,11 @@ class Jiaoliu extends Component {
 			 <img src={require('../../../images/oude_03.jpg')}/>
 			 </div>
 			 </div>
-			 </div>
-			 
-			 }
-			 
-			 
-			 </div>
+			  </div>
+          </TabPane>
+         </Tabs>
+            
+            </div>
 			</div>
 		)
 	}

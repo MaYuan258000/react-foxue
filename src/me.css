@@ -20,3 +20,6 @@ a{
 	position: absolute;
 	left: 15rem;
 }
+.ant-tabs-nav .ant-tabs-tab{
+	margin-left: 4.5rem;
+}
